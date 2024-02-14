@@ -5,8 +5,61 @@
   --clr-black: hsl(0, 0%, 0%);
   --clr-dark-gray: hsl(0, 0%, 55%);
   --clr-very-dark-gray: hsl(0, 0%, 41%);
-  --fs-xl: clamp(u.rem(40), 1.795774647887324rem + 3.004694835680751vw, u.rem(72));
-  --fs-l: clamp(u.rem(32), 1.647887323943662rem + 1.5023474178403755vw, u.rem(48));
-  --fs-m: u.rem(32);
-  --fs-s: u.rem(15)
+  --fs-xl: #{clamp(u.rem(40), 1.795774647887324rem + 3.004694835680751vw, u.rem(72))};
+  --fs-l: #{clamp(u.rem(32), 1.647887323943662rem + 1.5023474178403755vw, u.rem(48))};
+  --fs-m: #{u.rem(32)};
+  --fs-s: #{u.rem(24)};
+  --fs-xs: #{u.rem(15)};
+  --ff-text: "Alata", sans-serif;
+  --ff-heading: "Josefin Sans", sans-serif;
+}
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+body {
+  font-family: var(--ff-text);
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, h2, h3 {
+  font-family: var(--ff-heading);
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.wrapper {
+  width: min(u.rem(1110), calc(100% - u.rem(48)));
+  margin-inline: auto;
 }

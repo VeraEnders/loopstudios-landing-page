@@ -4,34 +4,51 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/img/favicon-32x32.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
     <title>Loopstudios Landing Page</title>
   </head>
   <body>
-    <header>
-      <div class="wrapper">
+    <header class="header">
+      <div class="wrapper header__wrapper">
         <a href="/">
-          <img src="/img/logo.svg" alt="Homepage" width="193" height="32"/>
+          <img class="logo header__logo" src="/img/logo.svg" alt="Homepage"/>
         </a>
-        <nav>
-          <ul>
+        
+        <nav class="nav nav__close header__nav" aria-label="Site">
+          <button id="btnOpen" aria-expanded="false">
+            <svg width="24" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="#FFF" fill-rule="evenodd"><path d="M0 0h24v2H0zM0 7h24v2H0zM0 14h24v2H0z"/></g>
+            </svg>
+          </button>
+          <button id="btnClose">
+            <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M17.778.808l1.414 1.414L11.414 10l7.778 7.778-1.414 1.414L10 11.414l-7.778 7.778-1.414-1.414L8.586 10 .808 2.222 2.222.808 10 8.586 17.778.808z" fill="#FFF" fill-rule="evenodd"/>
+            </svg>
+          </button>
+          <ul class="nav__list">
             <li>
-              <a href="">About</a>
+              <a class="nav__link" href="">About</a>
             </li>
             <li>
-              <a href="">Careers</a>
+              <a class="nav__link" href="">Careers</a>
             </li>
             <li>
-              <a href="">Events</a>
+              <a class="nav__link" href="">Events</a>
             </li>
             <li>
-              <a href="">Products</a>
+              <a class="nav__link" href="">Products</a>
             </li>
             <li>
-              <a href="">Support</a>
+              <a class="nav__link" href="">Support</a>
             </li>
           </ul>
         </nav>
-        <h1>Immersive experiences that deliver</h1>
+      </div>
+      <div class="wrapper">
+        <div class="header__headline__wrapper">
+          <h1 class="header__headline">Immersive experiences that deliver</h1>
+        </div>
       </div>
     </header>
     <main>
