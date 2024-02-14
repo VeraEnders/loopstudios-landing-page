@@ -1,0 +1,40 @@
+@use '../util' as u;
+
+.interactive {
+  position: relative;
+  padding-block: 3rem;
+  text-align: center;
+
+  @media (width >= u.rem(1110)) {
+    padding-block: 7rem;
+    text-align: left;
+  }
+  
+  &__img {
+    margin-block: 3rem;
+  }
+
+  &__content {
+    background-color: var(--clr-white);
+
+    @media (width >= u.rem(1110)) {
+      position: absolute;
+      right: -6.25rem;
+      bottom: 4rem;
+      max-width: u.rem(640);
+      padding: 6rem;
+    }
+  }
+
+  &__description {
+    margin-inline: auto;
+    padding-top: 1rem;
+    width: 90%;
+    line-height: 1.68;
+
+    @media (width >= u.rem(1110)) {
+      padding-top: 1.5rem;
+      width: 100%;
+    }
+  }
+}

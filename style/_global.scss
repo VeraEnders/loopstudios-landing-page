@@ -50,6 +50,8 @@ body {
   font-family: var(--ff-text);
   font-weight: 400;
   font-style: normal;
+  font-size: var(--fs-xs);
+  color: var(--clr-very-dark-gray);
 }
 
 h1, h2, h3 {
@@ -57,6 +59,16 @@ h1, h2, h3 {
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
+  text-transform: uppercase;
+  color: var(--clr-black);
+}
+
+h2 {
+  font-size: var(--fs-l);
+}
+
+h3 {
+  font-size: var(--fs-m);
 }
 
 .wrapper {

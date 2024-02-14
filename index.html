@@ -54,7 +54,11 @@
     <main>
       <div class="wrapper">
         <section class="interactive">
-          <img class="interactive__img" src="/img/mobile/image-interactive.jpg" alt="Interactive Game">
+          <picture>
+            <source media="(max-width: 1199px)" srcset="/img/mobile/image-interactive.jpg">
+            <source media="(min-width: 1200px)" srcset="/img/desktop/image-interactive.jpg">
+            <img class="interactive__img" src="/img/mobile/image-interactive.jpg">
+          </picture>
           <div class="interactive__content">
             <h2 class="interactive__title">The leader in interactive VR</h2>
             <p class="interactive__description">
