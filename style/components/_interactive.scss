@@ -19,10 +19,11 @@
 
     @media (width >= u.rem(1110)) {
       position: absolute;
-      right: -6.25rem;
-      bottom: 4rem;
-      max-width: u.rem(640);
-      padding: 6rem;
+      right: 2.9rem;
+      bottom: 10rem;
+      max-width: 31rem;
+      padding-top: 6rem;
+      padding-left: 6rem;
     }
   }
 
@@ -34,7 +35,7 @@
 
     @media (width >= u.rem(1110)) {
       padding-top: 1.5rem;
-      width: 100%;
+      width: 108%;
     }
   }
 }
