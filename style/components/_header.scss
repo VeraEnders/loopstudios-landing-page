@@ -16,6 +16,7 @@
     justify-content: space-between;
     align-items: center;
     padding-block: 2.5rem;
+    animation: move-down 1s;
 
     @media (width >= u.rem(1110)) {
       padding-block: 4rem;
@@ -27,6 +28,7 @@
     width: min(u.rem(650), 100%);
     border: 2px var(--clr-white) solid;
     padding: 1.25rem;
+    animation: focus 1s;
 
     @media (width >= u.rem(1110)) {
       margin-top: 10rem;
