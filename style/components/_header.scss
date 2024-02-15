@@ -6,7 +6,8 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-  @media (width >= u.rem(768)) {
+  @media (width >= u.rem(1110)) {
+    min-height: 100vh;
     background-image: url('/img/desktop/image-hero.jpg');
   }
 
@@ -21,14 +22,6 @@
     }
   }
 
-  &__logo {
-    width: u.rem(145);
-
-    @media (width >= u.rem(1110)) {
-      width: u.rem(192);
-    }
-  }
-
   &__headline__wrapper {
     margin-top: 7.6rem;
     width: min(u.rem(650), 100%);
@@ -36,7 +29,7 @@
     padding: 1.25rem;
 
     @media (width >= u.rem(1110)) {
-      margin-top: 4rem;
+      margin-top: 10rem;
       padding: 2.4rem 2.5rem 1.4rem;
     }
   }

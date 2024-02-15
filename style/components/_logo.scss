@@ -1,0 +1,9 @@
+@use '../util' as u;
+
+.logo {
+  width: u.rem(145);
+
+  @media (width >= u.rem(1110)) {
+    width: u.rem(192);
+  }
+}
