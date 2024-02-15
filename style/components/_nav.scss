@@ -36,41 +36,4 @@
       }
     }
   }
-
-  &__close {
-    #btnClose,
-    .nav__list {
-      display: none;
-    }
-
-    @media (width >= u.rem(1110)) {
-      #btnOpen {
-        display: none;
-      }
-
-      .nav__list {
-        display: flex;
-      }
-    }
-  }
-
-  &__open {
-    #btnClose {
-      display: block;
-    }
-
-    .nav__list {
-      display: block;
-      position: fixed;
-      inset: 0 0 0 u.rem(120);
-    }
-
-    .nav__link {
-      font-family: var(--ff-heading);
-      font-weight: 300;
-      font-size: var(--fs-s);
-      color: var(--clr-white);
-      text-transform: uppercase;
-    }
-  }
 }
