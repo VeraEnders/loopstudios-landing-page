@@ -6,10 +6,10 @@
     <th>Mobile</th>
   </tr>
   <tr style="background-color: #EEEAEA">
-    <td> 
+    <td style="text-align: center;"> 
       <img src="./public/img/preview/preview-desktop.png" alt="Loopstudios website desktop preview" width="80%">
     </td>
-    <td>
+    <td style="text-align: center;">
       <img src="./public/img/preview/preview-mobile.png" alt="Loopstudios website mobile preview">
     </td>
   </tr>
