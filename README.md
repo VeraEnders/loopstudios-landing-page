@@ -5,7 +5,7 @@
     <th>Desktop</th>
     <th>Mobile</th>
   </tr>
-  <tr style="background-color: #EEEAEA">
+  <tr>
     <td style="text-align: center;"> 
       <img src="./public/img/preview/preview-desktop.png" alt="Loopstudios website desktop preview" width="80%">
     </td>
